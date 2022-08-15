@@ -6,13 +6,13 @@
 	"author": "arnu515",
 	"keywords": [
 		"vite",
-		"react",
+		"preact",
 		"lottie"
 	],
 	"homepage": "https://github.com/arnu515/lottie-player-zip-preact",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/arnu515/lottie-player-zip"
+		"url": "https://github.com/arnu515/lottie-player-zip-preact"
 	},
 	"files": [
 		"dist",

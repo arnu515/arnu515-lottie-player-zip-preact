@@ -1,6 +1,6 @@
 import * as path from "path"
 import { defineConfig } from "vite"
-import react from "@vitejs/plugin-react"
+import preact from "@preact/preset-vite"
 
 export default defineConfig({
 	build: {
@@ -10,13 +10,15 @@ export default defineConfig({
 			fileName: format => `lottie-player-zip.${format}.js`
 		},
 		rollupOptions: {
-			external: ["react", "react-dom", "@lottiefiles/lottie-player", "@zip.js/zip.js"],
+			external: ["preact", "@lottiefiles/lottie-player", "@zip.js/zip.js"],
 			output: {
 				globals: {
-					react: "React"
+					preact: "Preact",
+					"@zip.js/zip.js": "zipjs",
+					"@lottiefiles/lottie-player": "lottieplayer"
 				}
 			}
 		}
 	},
-	plugins: [react()]
+	plugins: [preact()]
 })

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react"
+import React, { useEffect, useRef, useState } from "preact/compat"
 import "@lottiefiles/lottie-player"
 import { BlobReader, ZipReader } from "@zip.js/zip.js"
 

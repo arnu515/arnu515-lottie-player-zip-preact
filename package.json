@@ -1,7 +1,7 @@
 {
-	"name": "lottie-player-zip",
+	"name": "@arnu515/lottie-player-zip-preact",
 	"version": "1.0.0",
-	"description": "Lottie Player with ZIP Support (for React)",
+	"description": "lottie-player-zip but with preact instead of react",
 	"license": "MIT",
 	"author": "arnu515",
 	"keywords": [
@@ -9,7 +9,7 @@
 		"react",
 		"lottie"
 	],
-	"homepage": "https://github.com/arnu515/lottie-player-zip",
+	"homepage": "https://github.com/arnu515/lottie-player-zip-preact",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/arnu515/lottie-player-zip"
